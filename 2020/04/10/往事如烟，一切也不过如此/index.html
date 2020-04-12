@@ -178,6 +178,14 @@
     <nav id="title-list-nav">
         
         <a  class=""
+           href="/2020/04/07/Hello-World-0/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="Hello,World">Hello,World</span>
+            <span class="post-date" title="2020-04-07 22:00:02">2020/04/07</span>
+        </a>
+        
+        <a  class=""
            href="/2020/04/12/4-11/"
            data-tag=""
            data-author="" >
@@ -191,22 +199,6 @@
            data-author="" >
             <span class="post-title" title="Stop">Stop</span>
             <span class="post-date" title="2020-04-10 11:49:31">2020/04/10</span>
-        </a>
-        
-        <a  class=""
-           href="/2020/04/07/Hello-World-0/"
-           data-tag=""
-           data-author="" >
-            <span class="post-title" title="Hello,World">Hello,World</span>
-            <span class="post-date" title="2020-04-07 22:00:02">2020/04/07</span>
-        </a>
-        
-        <a  class=""
-           href="/2020/04/10/%E5%BE%80%E4%BA%8B%E5%A6%82%E7%83%9F%EF%BC%8C%E4%B8%80%E5%88%87%E4%B9%9F%E4%B8%8D%E8%BF%87%E5%A6%82%E6%AD%A4/"
-           data-tag=""
-           data-author="" >
-            <span class="post-title" title="往事如烟，一切也不过如此">往事如烟，一切也不过如此</span>
-            <span class="post-date" title="2020-04-10 11:36:49">2020/04/10</span>
         </a>
         
         <a  class=""
@@ -226,6 +218,22 @@
         </a>
         
         <a  class=""
+           href="/2020/04/10/%E5%BE%80%E4%BA%8B%E5%A6%82%E7%83%9F%EF%BC%8C%E4%B8%80%E5%88%87%E4%B9%9F%E4%B8%8D%E8%BF%87%E5%A6%82%E6%AD%A4/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="往事如烟，一切也不过如此">往事如烟，一切也不过如此</span>
+            <span class="post-date" title="2020-04-10 11:36:49">2020/04/10</span>
+        </a>
+        
+        <a  class=""
+           href="/2020/04/08/%E6%89%80%E8%B0%93%E5%A4%A7%E5%AD%A6%E8%80%85%EF%BC%8C%E6%97%A0%E8%B0%93%E8%A5%BF%E4%B8%9C/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="所谓大学者，无谓西东">所谓大学者，无谓西东</span>
+            <span class="post-date" title="2020-04-08 09:27:47">2020/04/08</span>
+        </a>
+        
+        <a  class=""
            href="/2020/04/08/%E9%9B%B7%E6%89%93%E4%B8%8D%E5%8A%A8/"
            data-tag=""
            data-author="" >
@@ -239,14 +247,6 @@
            data-author="" >
             <span class="post-title" title="必读：科研需要的能力">必读：科研需要的能力</span>
             <span class="post-date" title="2020-04-07 22:02:27">2020/04/07</span>
-        </a>
-        
-        <a  class=""
-           href="/2020/04/08/%E6%89%80%E8%B0%93%E5%A4%A7%E5%AD%A6%E8%80%85%EF%BC%8C%E6%97%A0%E8%B0%93%E8%A5%BF%E4%B8%9C/"
-           data-tag=""
-           data-author="" >
-            <span class="post-title" title="所谓大学者，无谓西东">所谓大学者，无谓西东</span>
-            <span class="post-date" title="2020-04-08 09:27:47">2020/04/08</span>
         </a>
         
         <a  class=""
@@ -329,10 +329,6 @@
 </article>
 
 
-<p>
-    <a  class="dashang" onclick="dashangToggle()">赏</a>
-</p>
-
 
 <div class="article_copyright">
     <p><span class="copy-title">文章标题:</span>往事如烟，一切也不过如此</p>
@@ -350,6 +346,46 @@
 
 
 
+    
+        <!-- MathJax配置，可通过单美元符号书写行内公式等 -->
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    "HTML-CSS": {
+        preferredFont: "TeX",
+        availableFonts: ["STIX","TeX"],
+        linebreaks: { automatic:true },
+        EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50)
+    },
+    tex2jax: {
+        inlineMath: [ ["$", "$"], ["\\(","\\)"] ],
+        processEscapes: true,
+        ignoreClass: "tex2jax_ignore|dno",
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    },
+    TeX: {
+        equationNumbers: { autoNumber: "AMS" },
+        noUndefined: { attributes: { mathcolor: "red", mathbackground: "#FFEEEE", mathsize: "90%" } },
+        Macros: { href: "{}" }
+    },
+    messageStyle: "none"
+    });
+</script>
+<!-- 给MathJax元素添加has-jax class -->
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+<!-- 通过连接CDN加载MathJax的js代码 -->
+<script type="text/javascript" async
+        src="//cdn.bootcss.com/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+<input type="hidden" id="MathJax-js"
+        value="//cdn.bootcss.com/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
+</input>
     
 
 
@@ -375,24 +411,6 @@
 </div>
 <div class="acParent"></div>
 
-<div class="hide_box" onclick="dashangToggle()"></div>
-<div class="shang_box">
-    <a class="shang_close"  onclick="dashangToggle()">×</a>
-    <div class="shang_tit">
-        <p>喜欢就点赞,疼爱就打赏</p>
-    </div>
-    <div class="shang_payimg">
-        <div class="pay_img">
-            <img src="/img/alipay.jpg" class="alipay" title="扫码支持">
-            <img src="/img/weixin.jpg" class="weixin" title="扫码支持">
-        </div>
-    </div>
-    <div class="shang_payselect">
-        <span><label><input type="radio" name="pay" checked value="alipay">支付宝</label></span><span><label><input type="radio" name="pay" value="weixin">微信</label></span>
-    </div>
-</div>
-
-
 </body>
 <script src="/js/jquery.pjax.js?v=1.0.1" ></script>
 
@@ -414,14 +432,6 @@
         
 
         /*渲染打赏样式*/
-        
-        $("input[name=pay]").on("click", function () {
-            if($("input[name=pay]:checked").val()=="weixin"){
-                $(".shang_box .shang_payimg .pay_img").addClass("weixin_img");
-            } else {
-                $(".shang_box .shang_payimg .pay_img").removeClass("weixin_img");
-            }
-        })
         
 
         /*高亮代码块行号*/
@@ -454,11 +464,6 @@
     }
 
     /*打赏页面隐藏与展示*/
-    
-    function dashangToggle() {
-        $(".shang_box").fadeToggle();
-        $(".hide_box").fadeToggle();
-    }
     
 
 </script>
