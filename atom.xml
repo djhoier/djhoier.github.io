@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>The Blog Of Jules</title>
+  
+  <subtitle>有些痛是翅膀奋力在长大 飞啊 去寻找前方的自己 拥抱这世界的美丽</subtitle>
+  <link href="http://djhoier.github.io/atom.xml" rel="self"/>
+  
+  <link href="http://djhoier.github.io/"/>
+  <updated>2022-07-24T12:42:36.045Z</updated>
+  <id>http://djhoier.github.io/</id>
+  
+  <author>
+    <name>Jules</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello</title>
+    <link href="http://djhoier.github.io/2022/07/24/Hello/"/>
+    <id>http://djhoier.github.io/2022/07/24/Hello/</id>
+    <published>2022-07-24T12:42:36.000Z</published>
+    <updated>2022-07-24T12:42:36.045Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+</feed>
