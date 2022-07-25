@@ -2,16 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://djhoier.github.io/general-schedule/index.html</loc>
-    
-    <lastmod>2022-07-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://djhoier.github.io/course-design/index.html</loc>
+    <loc>http://djhoier.github.io/long-term-planning/index.html</loc>
     
     <lastmod>2022-07-25</lastmod>
     
@@ -29,9 +20,18 @@
   </url>
   
   <url>
-    <loc>http://djhoier.github.io/Long-term-planning/index.html</loc>
+    <loc>http://djhoier.github.io/course-design/index.html</loc>
     
-    <lastmod>2022-07-24</lastmod>
+    <lastmod>2022-07-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://djhoier.github.io/general-schedule/index.html</loc>
+    
+    <lastmod>2022-07-25</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
