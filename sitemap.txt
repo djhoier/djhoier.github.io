@@ -1,6 +1,6 @@
 http://djhoier.github.io/long-term-planning/index.html
-http://djhoier.github.io/about/index.html
-http://djhoier.github.io/course-design/index.html
 http://djhoier.github.io/general-schedule/index.html
+http://djhoier.github.io/course-design/index.html
+http://djhoier.github.io/about/index.html
 http://djhoier.github.io/2022/07/24/Hello/
 http://djhoier.github.io/
